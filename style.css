@@ -257,11 +257,14 @@ margin: 30px;
   color: #00FFEE; /* Highlight color */
 
 }
-.lineing{
+/* .lineing{
   width: 100%;
   height: 3px;
   background-color: #2ec4b6;
-}
+} */
+ .ps{
+  
+ }
 .do-flex{
   width: 100%;
   background-color: black;
@@ -306,7 +309,7 @@ background-color: black !important;
   }
 .blacky-berry{
   width: 100%;
-  height: 100%;
+  height: 250vh;
   background-color: black;
   display: flex;
   flex-wrap: wrap;
@@ -331,6 +334,7 @@ gap: 20px;
 }
 
 @media (max-width:769px){
+  
   .name{
     font-size: 64px;
     text-align: center;
@@ -520,7 +524,7 @@ margin-top: 30px;
   .do-flex{
   width: 100%;
   background-color: black;
-  height: 350vh;
+  height: 440vh;
   /* margin-top: 40px; */
   display: flex;
   justify-content: center;
