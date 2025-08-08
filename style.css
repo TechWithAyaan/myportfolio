@@ -475,7 +475,42 @@ margin-bottom: 10px;
     border-radius: 5px;
   }
 }
-@media (max-width:378px){
+@media only screen and (max-width:378px){
+  .blacky-berry{
+  width: 100%;
+  height: 160%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+justify-content: center;
+gap: 70px;
+
+}
+  .honer{
+  width: 500px;
+margin: 0px;
+  /* border: 4px solid #00FFEE; */
+  height: 280px;
+  /* border: 4px solid ; */
+
+}
+    .do-flex{
+  width: 100%;
+  background-color: black;
+  height: 44vh;
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: center;
+  padding: 1px;
+  flex-wrap: wrap;
+}
+  .pro{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+
+}
     .hero{
     width: 100%;
     height: 120vh;
@@ -519,6 +554,7 @@ margin-top: 30px;
     font-weight: bold;
     color: #00FFEE; /* Highlight color */
 }
+
 }
 @media screen and (max-width: 1249px) {
   .do-flex{
@@ -581,4 +617,17 @@ margin-top: 30px;
     border-radius: 5px;
   }
   
+}
+@media only screen and (max-width:331px){
+.blacky-berry{
+  width: 100%;
+  height: 160%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+justify-content: center;
+gap: 70px;
+
+}
 }
